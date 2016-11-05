@@ -1,0 +1,21 @@
+<!docttype html>
+<html ng-app="testingAngularApp" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>Testing AngularJS</title>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body ng-controller="testingAngularCtrl">
+        <b>Types of tests</b><br/>
+        1. Unit Testing - testing small components in isolation from other components. Often performed by Developers.<br/>
+        2. End To End (E2E) Testing - using code to identify how interface changes after an action is performed. For example, adding a new element; button is clicked. Focus - on end result.<br/>
+        3. Manual testing - just like a user would experience. It is important to use different devices.<br/>
+        4. Stress Testing - simulating heavy load in the app. See the performance.<br/>
+        5. Test Driven Development - you are writing your tests during development, and not when you are done.<br/></br>
+        <b>Karma</b> - JS Test Runner which will be used to run test in multiple browsers.<br/>
+        <b>Jasmine</b> - JS Testing Framework. Does not depent on anything, so it can be used everywhere.<br/>
+        <b>PhantomJS</b> - headless browser. Does not have GUI, - improves speed of running tests.<br/>
+        <b>Protractor</b> - testing Framework build on Jasmine for End To End tests.
+        {{title}}
+    </body>
+</html>

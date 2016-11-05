@@ -3,12 +3,19 @@
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Mischanja/angular-testings",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "^1.5.8",
+    "angular": "^1.5.8"
+  },
+  "authors": [
+    "Mike <misha.kasko@gmail.com>"
   ]
 }
